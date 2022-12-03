@@ -40,9 +40,11 @@ plot(jitter(trees$Girth), trees$Volume, ylab="Cirunferência", xlab="Volume", co
 ```
 Legenda com dimensão categórica
 ```{r}
+
+CO2
 plot(CO2$conc, CO2$uptake,pch=20, col= CO2$Treatment)
 #"bottom", "bottomleft", "left", "topleft", "top", "topright", "right" and "center"
-legend("bottomright",legend=c("nonchilled","chilled"),cex=1, fill=c("black","red")) 
+legend("bottomright",legend=c("nonchilled","chilled"),cex=0.5, fill=c("black","red")) 
 ```
 Novos dados
 ```{r}
