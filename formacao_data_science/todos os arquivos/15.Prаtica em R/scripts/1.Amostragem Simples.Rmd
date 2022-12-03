@@ -1,6 +1,6 @@
 ---
 Formação Cientista de Dados 
-Amostragem Simples
+Amostragem Simples.
 ---
 150 amostras, de zero e 1, com reposição, prob. equivalentes
 ```{r}
